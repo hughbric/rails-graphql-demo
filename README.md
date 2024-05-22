@@ -1,24 +1,25 @@
-# README
+# BMI Calculator
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple BMI calculator that takes in a user's weight and height and calculates their BMI. The user can also view a list of all the BMI calculations they have made.
 
-Things you may want to cover:
+## Requirements
 
-* Ruby version
+This application requires Ruby 3.2.2 and Rails.
 
-* System dependencies
+Install RVM (Ruby Version Manager) [here](https://rvm.io/rvm/install).
 
-* Configuration
+Install Ruby 3.2.2 by running `rvm install 3.2.2`.
 
-* Database creation
+Install Rails by running `gem install rails`.
 
-* Database initialization
+## Installation
 
-* How to run the test suite
+Clone the repository and run `bundle install` to install the required gems.
 
-* Services (job queues, cache servers, search engines, etc.)
+## Usage
 
-* Deployment instructions
+Run `bin/rails s` to start the server and navigate to `localhost:3000` in your browser to use the application.
 
-* ...
+## Testing
+
+Run `bundle exec rspec spec` to run the test suite.
