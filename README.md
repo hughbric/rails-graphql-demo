@@ -4,13 +4,11 @@ This is a simple BMI calculator that takes in a user's weight and height and cal
 
 ## Requirements
 
-This application requires Ruby 3.2.2 and Rails.
+This application requires Ruby 3.2.2.
 
 Install RVM (Ruby Version Manager) [here](https://rvm.io/rvm/install).
 
 Install Ruby 3.2.2 by running `rvm install 3.2.2`.
-
-Install Rails by running `gem install rails`.
 
 ## Installation
 
